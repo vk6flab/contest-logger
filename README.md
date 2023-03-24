@@ -1,7 +1,7 @@
 # Contesting Software
-Amateur Radio contesting is a particular activity where hobbyists get on air and exchange information and log the exchange. Sometimes that exchange is made as part of an activity, called contesting, where points are awarded for each such exchange.
+Amateur Radio contesting is an activity where hobbyists get on air, exchange information and log the exchange. A contest awards points for such an exchange using rules defined by the contest manager.
 
-There are many tools that provide contest logging. At this time there are no tools that provide the following functionality.
+There are many tools that provide various levels of contest logging. At this time there are no tools that provide the following functionality.
 
 # Environmental Requirements
 
