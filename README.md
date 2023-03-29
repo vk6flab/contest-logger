@@ -73,3 +73,61 @@ These sections describe the requirements for user experience.
 
 ## Imports
 - should be able to import existing logs so you can start to consolidate older logs.
+
+---
+
+# Proof Of Concept
+
+The following projects and examples were explored to establish that the basic functionality can be built with a Progressive Web App.
+
+- Progressive Web App
+  - https://github.com/ibrahima92/pwa-with-vanilla-js
+- Minimal CSS
+  - https://github.com/picocss/pico
+- Dynamic Tables
+  - https://datatables.net/examples/api/tabs_and_scrolling.html
+- External File Handling
+  - https://github.com/GoogleChromeLabs/text-editor.git
+- Table Row Handling
+  - https://www.javaguides.net/2020/11/javascript-crud-example-tutorial.html
+- Tabs in CSS
+  - https://alvarotrigo.com/blog/html-css-tabs/
+- Default Values
+  - https://www.w3schools.com/tags/att_input_value.asp
+  - https://www.w3schools.com/jsref/prop_text_defaultvalue.asp
+
+---
+
+# Minimum Viable Product
+
+A first pass running example that shows the intent of the project. This isn't fully functional, it won't have plug-ins, rules, or any design decisions, intended as a step-up from a drawing on a piece of paper.
+
+- Form with basic logging fields
+- Table with log entries
+- Example of a Preferences screen
+- Log current time
+- Local storage of current log
+- Log export to file
+- Example of a validation error
+- Switching between two layout style sheets
+
+---
+
+# System Design
+
+- user intentions
+- the functional blocks of the environment
+- messages between blocks
+- GraphViz representation
+  - See [design.dot](design.dot)
+
+---
+To visualise the relationship between the various components a first pass at component relationships has been constructed. This is not exhaustive, likely contains logical errors and has not been implemented in the MVP version at all.
+
+![Component Relationships](design.svg)
+
+---
+
+# Implementation Design
+
+- 

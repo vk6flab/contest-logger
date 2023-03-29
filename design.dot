@@ -1,0 +1,106 @@
+/*
+	This layout describes the different components used to implement
+	the contest-logger. It shows how components affect each other and
+	what intended effect they have.
+*/
+
+digraph C {
+/*
+	Contest component is a "plug-in" that affects the operation of most
+	of the aspects of the software.
+
+	To ensure robustness, the intent is that each component "queries" the
+	Contest component to determine what needs to happen.
+
+	The intent is that this will prevent a poorly written plug-in from
+	killing the application.
+*/
+	Contest -> "Special Fields" -> Defaults
+	Contest -> "Export Format" -> Export
+	Contest -> "Required Fields" -> Form
+	Contest -> "Plug-In" -> Storage
+	Contest -> "Rule Check" -> Validation
+
+/*
+	Default component determines automatic behaviour like date/time updates,
+	automatic RST calculation, callsign lookup.
+*/
+	Defaults -> "Field Behaviour" -> Form
+
+/*
+	Form component handles user interface.
+*/
+	Form -> "Insert Row" -> Log
+
+/*
+	Import component handles loading external log files. Likely this will
+	require an extensible architecture to manage multiple formats.
+*/
+	Import -> "Add records to" -> Log
+
+/*
+	Log component handles user visible contest results.
+*/
+	Log -> "Extract" -> Export
+	Log -> "Insert" -> Storage
+	Log -> "Edit" -> Form
+
+/*
+	Preferences component manages "global variables".
+*/
+	Preferences -> "Current Contest" -> Contest
+	Preferences -> "Visible Fields" -> Form
+	Preferences -> "Visible Columns" -> Log
+	Preferences -> "Store Preferences" -> Storage
+	Preferences -> "Current Theme" -> Theme
+	Preferences -> "Invalid Colour Warning" -> Validation
+
+/*
+	Theme component manages screen layout. It's extensible to handle
+	multiple themes.
+*/
+	Theme -> "Form Layout" -> Form
+	Theme -> "Log Layout" -> Log
+	Theme -> "Theme Code" -> Storage
+
+/*
+	Validation component handles how valid and invalid data is represented.
+*/
+	Validation -> "Show Invalid Field" -> Form
+	Validation -> "Show Invalid Entry" -> Log
+
+	Contest [style=filled]
+	Defaults [style=filled]
+	Export [style=filled]
+	Form [style=filled]
+	Import [style=filled]
+	Log [style=filled]
+	Preferences [style=filled]
+	Storage [style=filled]
+	Theme [style=filled]
+	Validation [style=filled]
+
+	"Add records to" [shape=plain]
+	"Current Contest" [shape=plain]
+	"Current Theme" [shape=plain]
+	"Edit" [shape=plain]
+	"Export Format" [shape=plain]
+	"Extract" [shape=plain]
+	"Field Behaviour" [shape=plain]
+	"Form Layout" [shape=plain]
+	"Insert" [shape=plain]
+	"Insert Row" [shape=plain]
+	"Invalid Colour Warning" [shape=plain]
+	"Log Layout" [shape=plain]
+	"Plug-In" [shape=plain]
+	"Required Fields" [shape=plain]
+	"Rule Check" [shape=plain]
+	"Show Invalid Entry" [shape=plain]
+	"Show Invalid Field" [shape=plain]
+	"Special Fields" [shape=plain]
+	"Store Preferences" [shape=plain]
+	"Theme Code" [shape=plain]
+	"Visible Columns" [shape=plain]
+	"Visible Fields" [shape=plain]
+
+}
