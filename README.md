@@ -80,19 +80,19 @@ These sections describe the requirements for user experience.
 
 The following projects and examples were explored to establish that the basic functionality can be built with a Progressive Web App.
 
-- Progressive Web App
+- [x] Progressive Web App
   - https://github.com/ibrahima92/pwa-with-vanilla-js
-- Minimal CSS
+- [x] Minimal CSS
   - https://github.com/picocss/pico
-- Dynamic Tables
+- [x] Dynamic Tables
   - https://datatables.net/examples/api/tabs_and_scrolling.html
-- External File Handling
+- [x] External File Handling
   - https://github.com/GoogleChromeLabs/text-editor.git
-- Table Row Handling
+- [x] Table Row Handling
   - https://www.javaguides.net/2020/11/javascript-crud-example-tutorial.html
-- Tabs in CSS
+- [x] Tabs in CSS
   - https://alvarotrigo.com/blog/html-css-tabs/
-- Default Values
+- [x] Default Values
   - https://www.w3schools.com/tags/att_input_value.asp
   - https://www.w3schools.com/jsref/prop_text_defaultvalue.asp
 
@@ -102,23 +102,23 @@ The following projects and examples were explored to establish that the basic fu
 
 A first pass running example that shows the intent of the project. This isn't fully functional, it won't have plug-ins, rules, or any design decisions, intended as a step-up from a drawing on a piece of paper.
 
-- Form with basic logging fields
-- Table with log entries
-- Example of a Preferences screen
-- Log current time
-- Local storage of current log
-- Log export to file
-- Example of a validation error
-- Switching between two layout style sheets
+- [x] Form with basic logging fields
+- [x] Table with log entries
+- [x] Example of a Preferences screen
+- [x] Log current time
+- [ ] Local storage of current log
+- [ ] Log export to file
+- [ ] Example of a validation error
+- [ ] Switching between two layout style sheets
 
 ---
 
 # System Design
 
-- user intentions
-- the functional blocks of the environment
-- messages between blocks
-- GraphViz representation
+- [ ] user intentions
+- [ ] the functional blocks of the environment
+- [ ] messages between blocks
+- [x] GraphViz representation
   - See [design.dot](design.dot)
 
 ---
@@ -130,4 +130,4 @@ To visualise the relationship between the various components a first pass at com
 
 # Implementation Design
 
-- 
+- [ ] TBD
