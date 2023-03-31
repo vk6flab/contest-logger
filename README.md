@@ -106,10 +106,11 @@ A first pass running example that shows the intent of the project. This isn't fu
 - [x] Table with log entries
 - [x] Example of a Preferences screen
 - [x] Log current time
-- [ ] Local storage of current log
-- [ ] Log export to file
+- [x] Local storage of current log
+- [x] Log export to file
 - [ ] Example of a validation error
 - [ ] Switching between two layout style sheets
+- [ ] Installable PWA
 
 ---
 
