@@ -117,9 +117,8 @@
 				<figure>
 <!--
 //fixme: This needs to scroll vertically as appropriate
--->
-<!--
 //fixme: This needs to support multiple logs in the same screen location
+//fixme: This needs to be set up dynamically to deal with different requirements
 -->
 					<table name="jmmfd" id="current_log" role="grid">
 						<thead>
@@ -149,9 +148,19 @@
 			<header>
 				<a href="#close" aria-label="Close" class="close" data-target="about-box" onClick="toggleModal(event)"></a>
 				<h1>About Contest Logger</h1>
+				<p>
+					This is a minimum viable product demonstration, 
+					one step above drawing on a piece of paper. 
+					You should not rely on it to accurately do anything. 
+					If you find issues, please let me know, but 
+					understand that this is NOT the actual product, 
+					it's the first pass at exploring what kinds of 
+					issues will need to be resolved when implementing 
+					an open source, cross-platform contest logging solution.
+				</p>
 			</header>
 			<main>
-				Building a better mouse trap, one byte at a time.
+				<i>Building a better mouse trap, one byte at a time.</i>
 			</main>
 			<footer>
 				&copy; 2023 &mdash; Onno (VK6FLAB)
@@ -163,6 +172,11 @@
 			<header>
 				<a href="#close" aria-label="Close" class="close" data-target="preferences" onClick="toggleModal(event)"></a>
 				<h1>Preferences</h1>
+				<p>
+					This preferences pane does not work. It's
+					here to show the kinds of things that could
+					be set as a preference.
+				</p>
 			</header>
 			<main>
 				<form>
@@ -225,8 +239,14 @@
 					</fieldset>
 
 					<label for="color">Alert Colour
-						<input type="color" id="color" name="color" value="#FF9966">
+						<input type="color" name="color" value="#FF9966">
 					</label>
+
+					<label>
+						<input type="checkbox" name="errorHandling" role="switch" checked>
+						Allow invalid entries to be logged
+					</label>
+
 				</form>
 			</main>
 			<footer>
