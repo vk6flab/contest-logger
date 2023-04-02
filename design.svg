@@ -12,6 +12,7 @@
 <!-- Special Fields -->
 <g id="node2" class="node">
 <title>Special Fields</title>
+<polygon fill="#d3d3d3" stroke="transparent" points="524.5958,-463.1012 445.7346,-463.1012 445.7346,-446.4988 524.5958,-446.4988 524.5958,-463.1012"/>
 <text text-anchor="middle" x="485.1652" y="-450.6" font-family="Times,serif" font-size="14.00" fill="#000000">Special Fields</text>
 </g>
 <!-- Contest&#45;&gt;Special Fields -->
@@ -23,6 +24,7 @@
 <!-- Export Format -->
 <g id="node4" class="node">
 <title>Export Format</title>
+<polygon fill="#d3d3d3" stroke="transparent" points="653.208,-151.1012 571.1224,-151.1012 571.1224,-134.4988 653.208,-134.4988 653.208,-151.1012"/>
 <text text-anchor="middle" x="612.1652" y="-138.6" font-family="Times,serif" font-size="14.00" fill="#000000">Export Format</text>
 </g>
 <!-- Contest&#45;&gt;Export Format -->
@@ -34,6 +36,7 @@
 <!-- Required Fields -->
 <g id="node6" class="node">
 <title>Required Fields</title>
+<polygon fill="#d3d3d3" stroke="transparent" points="427.7052,-463.1012 338.6252,-463.1012 338.6252,-446.4988 427.7052,-446.4988 427.7052,-463.1012"/>
 <text text-anchor="middle" x="383.1652" y="-450.6" font-family="Times,serif" font-size="14.00" fill="#000000">Required Fields</text>
 </g>
 <!-- Contest&#45;&gt;Required Fields -->
@@ -45,6 +48,7 @@
 <!-- Plug&#45;In -->
 <g id="node8" class="node">
 <title>Plug-In</title>
+<polygon fill="#d3d3d3" stroke="transparent" points="218.1596,-275.9012 176.1708,-275.9012 176.1708,-259.2988 218.1596,-259.2988 218.1596,-275.9012"/>
 <text text-anchor="middle" x="197.1652" y="-263.4" font-family="Times,serif" font-size="14.00" fill="#000000">Plug-In</text>
 </g>
 <!-- Contest&#45;&gt;Plug&#45;In -->
@@ -56,6 +60,7 @@
 <!-- Rule Check -->
 <g id="node10" class="node">
 <title>Rule Check</title>
+<polygon fill="#d3d3d3" stroke="transparent" points="320.8734,-463.1012 255.457,-463.1012 255.457,-446.4988 320.8734,-446.4988 320.8734,-463.1012"/>
 <text text-anchor="middle" x="288.1652" y="-450.6" font-family="Times,serif" font-size="14.00" fill="#000000">Rule Check</text>
 </g>
 <!-- Contest&#45;&gt;Rule Check -->
@@ -79,6 +84,7 @@
 <!-- Field Behaviour -->
 <g id="node12" class="node">
 <title>Field Behaviour</title>
+<polygon fill="#d3d3d3" stroke="transparent" points="529.2615,-338.3012 439.0689,-338.3012 439.0689,-321.6988 529.2615,-321.6988 529.2615,-338.3012"/>
 <text text-anchor="middle" x="484.1652" y="-325.8" font-family="Times,serif" font-size="14.00" fill="#000000">Field Behaviour</text>
 </g>
 <!-- Defaults&#45;&gt;Field Behaviour -->
@@ -114,6 +120,7 @@
 <!-- Insert Row -->
 <g id="node13" class="node">
 <title>Insert Row</title>
+<polygon fill="#d3d3d3" stroke="transparent" points="514.9797,-213.5012 453.3507,-213.5012 453.3507,-196.8988 514.9797,-196.8988 514.9797,-213.5012"/>
 <text text-anchor="middle" x="484.1652" y="-201" font-family="Times,serif" font-size="14.00" fill="#000000">Insert Row</text>
 </g>
 <!-- Form&#45;&gt;Insert Row -->
@@ -149,6 +156,7 @@
 <!-- Show Invalid Field -->
 <g id="node31" class="node">
 <title>Show Invalid Field</title>
+<polygon fill="#d3d3d3" stroke="transparent" points="382.9897,-338.3012 275.3407,-338.3012 275.3407,-321.6988 382.9897,-321.6988 382.9897,-338.3012"/>
 <text text-anchor="middle" x="329.1652" y="-325.8" font-family="Times,serif" font-size="14.00" fill="#000000">Show Invalid Field</text>
 </g>
 <!-- Validation&#45;&gt;Show Invalid Field -->
@@ -160,6 +168,7 @@
 <!-- Show Invalid Entry -->
 <g id="node32" class="node">
 <title>Show Invalid Entry</title>
+<polygon fill="#d3d3d3" stroke="transparent" points="333.8152,-213.5012 224.5152,-213.5012 224.5152,-196.8988 333.8152,-196.8988 333.8152,-213.5012"/>
 <text text-anchor="middle" x="279.1652" y="-201" font-family="Times,serif" font-size="14.00" fill="#000000">Show Invalid Entry</text>
 </g>
 <!-- Validation&#45;&gt;Show Invalid Entry -->
@@ -189,6 +198,7 @@
 <!-- Extract -->
 <g id="node17" class="node">
 <title>Extract</title>
+<polygon fill="#d3d3d3" stroke="transparent" points="488.591,-88.7012 447.7394,-88.7012 447.7394,-72.0988 488.591,-72.0988 488.591,-88.7012"/>
 <text text-anchor="middle" x="468.1652" y="-76.2" font-family="Times,serif" font-size="14.00" fill="#000000">Extract</text>
 </g>
 <!-- Log&#45;&gt;Extract -->
@@ -200,6 +210,7 @@
 <!-- Insert -->
 <g id="node18" class="node">
 <title>Insert</title>
+<polygon fill="#d3d3d3" stroke="transparent" points="384.0365,-88.7012 352.2939,-88.7012 352.2939,-72.0988 384.0365,-72.0988 384.0365,-88.7012"/>
 <text text-anchor="middle" x="368.1652" y="-76.2" font-family="Times,serif" font-size="14.00" fill="#000000">Insert</text>
 </g>
 <!-- Log&#45;&gt;Insert -->
@@ -211,6 +222,7 @@
 <!-- Edit -->
 <g id="node19" class="node">
 <title>Edit</title>
+<polygon fill="#d3d3d3" stroke="transparent" points="543.0014,-88.7012 519.329,-88.7012 519.329,-72.0988 543.0014,-72.0988 543.0014,-88.7012"/>
 <text text-anchor="middle" x="531.1652" y="-76.2" font-family="Times,serif" font-size="14.00" fill="#000000">Edit</text>
 </g>
 <!-- Log&#45;&gt;Edit -->
@@ -228,6 +240,7 @@
 <!-- Add records to -->
 <g id="node16" class="node">
 <title>Add records to</title>
+<polygon fill="#d3d3d3" stroke="transparent" points="434.8576,-213.5012 351.4728,-213.5012 351.4728,-196.8988 434.8576,-196.8988 434.8576,-213.5012"/>
 <text text-anchor="middle" x="393.1652" y="-201" font-family="Times,serif" font-size="14.00" fill="#000000">Add records to</text>
 </g>
 <!-- Import&#45;&gt;Add records to -->
@@ -269,6 +282,7 @@
 <!-- Current Contest -->
 <g id="node21" class="node">
 <title>Current Contest</title>
+<polygon fill="#d3d3d3" stroke="transparent" points="416.7052,-587.9012 327.6252,-587.9012 327.6252,-571.2988 416.7052,-571.2988 416.7052,-587.9012"/>
 <text text-anchor="middle" x="372.1652" y="-575.4" font-family="Times,serif" font-size="14.00" fill="#000000">Current Contest</text>
 </g>
 <!-- Preferences&#45;&gt;Current Contest -->
@@ -280,6 +294,7 @@
 <!-- Visible Fields -->
 <g id="node22" class="node">
 <title>Visible Fields</title>
+<polygon fill="#d3d3d3" stroke="transparent" points="589.326,-525.5012 511.0044,-525.5012 511.0044,-508.8988 589.326,-508.8988 589.326,-525.5012"/>
 <text text-anchor="middle" x="550.1652" y="-513" font-family="Times,serif" font-size="14.00" fill="#000000">Visible Fields</text>
 </g>
 <!-- Preferences&#45;&gt;Visible Fields -->
@@ -291,6 +306,7 @@
 <!-- Visible Columns -->
 <g id="node23" class="node">
 <title>Visible Columns</title>
+<polygon fill="#d3d3d3" stroke="transparent" points="168.1665,-213.5012 74.1639,-213.5012 74.1639,-196.8988 168.1665,-196.8988 168.1665,-213.5012"/>
 <text text-anchor="middle" x="121.1652" y="-201" font-family="Times,serif" font-size="14.00" fill="#000000">Visible Columns</text>
 </g>
 <!-- Preferences&#45;&gt;Visible Columns -->
@@ -302,6 +318,7 @@
 <!-- Store Preferences -->
 <g id="node24" class="node">
 <title>Store Preferences</title>
+<polygon fill="#d3d3d3" stroke="transparent" points="98.4962,-525.5012 -.1658,-525.5012 -.1658,-508.8988 98.4962,-508.8988 98.4962,-525.5012"/>
 <text text-anchor="middle" x="49.1652" y="-513" font-family="Times,serif" font-size="14.00" fill="#000000">Store Preferences</text>
 </g>
 <!-- Preferences&#45;&gt;Store Preferences -->
@@ -313,6 +330,7 @@
 <!-- Current Theme -->
 <g id="node25" class="node">
 <title>Current Theme</title>
+<polygon fill="#d3d3d3" stroke="transparent" points="652.8007,-587.9012 567.5297,-587.9012 567.5297,-571.2988 652.8007,-571.2988 652.8007,-587.9012"/>
 <text text-anchor="middle" x="610.1652" y="-575.4" font-family="Times,serif" font-size="14.00" fill="#000000">Current Theme</text>
 </g>
 <!-- Preferences&#45;&gt;Current Theme -->
@@ -324,6 +342,7 @@
 <!-- Invalid Colour Warning -->
 <g id="node27" class="node">
 <title>Invalid Colour Warning</title>
+<polygon fill="#d3d3d3" stroke="transparent" points="305.1906,-587.9012 171.1398,-587.9012 171.1398,-571.2988 305.1906,-571.2988 305.1906,-587.9012"/>
 <text text-anchor="middle" x="238.1652" y="-575.4" font-family="Times,serif" font-size="14.00" fill="#000000">Invalid Colour Warning</text>
 </g>
 <!-- Preferences&#45;&gt;Invalid Colour Warning -->
@@ -371,6 +390,7 @@
 <!-- Form Layout -->
 <g id="node28" class="node">
 <title>Form Layout</title>
+<polygon fill="#d3d3d3" stroke="transparent" points="697.1585,-338.3012 623.1719,-338.3012 623.1719,-321.6988 697.1585,-321.6988 697.1585,-338.3012"/>
 <text text-anchor="middle" x="660.1652" y="-325.8" font-family="Times,serif" font-size="14.00" fill="#000000">Form Layout</text>
 </g>
 <!-- Theme&#45;&gt;Form Layout -->
@@ -382,6 +402,7 @@
 <!-- Log Layout -->
 <g id="node29" class="node">
 <title>Log Layout</title>
+<polygon fill="#d3d3d3" stroke="transparent" points="713.8762,-275.9012 648.4542,-275.9012 648.4542,-259.2988 713.8762,-259.2988 713.8762,-275.9012"/>
 <text text-anchor="middle" x="681.1652" y="-263.4" font-family="Times,serif" font-size="14.00" fill="#000000">Log Layout</text>
 </g>
 <!-- Theme&#45;&gt;Log Layout -->
@@ -393,6 +414,7 @@
 <!-- Theme Code -->
 <g id="node30" class="node">
 <title>Theme Code</title>
+<polygon fill="#d3d3d3" stroke="transparent" points="771.0888,-151.1012 699.2416,-151.1012 699.2416,-134.4988 771.0888,-134.4988 771.0888,-151.1012"/>
 <text text-anchor="middle" x="735.1652" y="-138.6" font-family="Times,serif" font-size="14.00" fill="#000000">Theme Code</text>
 </g>
 <!-- Theme&#45;&gt;Theme Code -->
