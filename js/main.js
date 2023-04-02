@@ -1,3 +1,5 @@
+alert('Warning: This is a MINIMUM VIABLE PRODUCT demonstration and is NOT feature complete. If it breaks you get to keep both parts.\n\nIn other words, do NOT USE this in a real contest!\n\n\nConsider yourself warned.');
+
 function add_log_entry(myForm) {
 //fixme: Validation stage here
 	var table = document.getElementById("current_log");
