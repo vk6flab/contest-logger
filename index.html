@@ -9,6 +9,7 @@
 	<title>Contest Logger</title>
 	<link rel="stylesheet" href="/css/pico.min.css">
 	<link rel="stylesheet" href="/css/pico.docs.min.css">
+	<link rel="stylesheet" href="/css/style.css">
 </head>
 </html>
 <body>
@@ -35,7 +36,7 @@
 <!--
 //fixme: This needs to deal with small screens
 -->
-			<form onsubmit="event.preventDefault();add_log_entry(this);">
+			<form id="logForm" onsubmit="event.preventDefault();add_log_entry(this);" novalidate>
 				<div class="grid">
 					<label>Date:
 						<input type="date" name="date">
@@ -47,7 +48,7 @@
 				</div>
 
 				<label>Call:
-					<input type="text" name="call">
+					<input type="text" name="call" pattern="[a-zA-Z0-9/]+" required>
 				</label>
 
 				<div class="grid">
@@ -181,7 +182,7 @@
 			<main>
 				<form>
 					<label>Station Callsign
-						<input type="text" name="call" required>
+						<input type="text" name="station" required>
 					</label>
 
 					<label>Operator Callsign
@@ -238,9 +239,18 @@
 						</label>
 					</fieldset>
 
-					<label for="color">Alert Colour
-						<input type="color" name="color" value="#FF9966">
-					</label>
+					<fieldset>
+						<legend>
+							Logging Alerts
+						</legend>
+						<label>Colour
+							<input type="color" name="alertColor" value="#FF9966">
+						</label>
+
+						<label>Transparency
+							<input type="range" min="0" max="255" value="128" name="alertTransparency">
+						</label>
+					</fieldset>
 
 					<label>
 						<input type="checkbox" name="errorHandling" role="switch" checked>

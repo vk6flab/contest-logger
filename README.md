@@ -14,7 +14,7 @@ When complete it will have the following functionality:
 - [x] Log current time
 - [x] Local storage of current log
 - [x] Log export to file
-- [ ] Example of a validation error
+- [x] Example of a validation error
 - [ ] Switching between two layout style sheets
 - [ ] Installable PWA
 

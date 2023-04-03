@@ -7,11 +7,37 @@ if (localStorage.getItem('table_rows') === null) {
 	);
 }
 
+function validate_callsignList(entry) {
+	if (rowCount = localStorage.getItem('table_rows')) {
+	// fixme: There is no error checking, this is fragile, don't use this in production.
+		var rowData = Array();
+		for (var i = 0; i < rowCount; i++) {
+			//fixme: the callsign column is hard-coded here.
+			rowData.push(JSON.parse(window.localStorage.getItem('row_' + (i + 1)))[2]);
+		}
+		var callsInLog = rowData.join("\n") ;
+		var regEx = new RegExp('\\b'+ entry.target.value +'\\b', 'i');
+		var status = regEx.test(callsInLog);
+	} else {
+		var status = false ;
+	}
+	if (status) {
+		entry.target.setCustomValidity("Callsign In Log");
+	} else {
+		entry.target.setCustomValidity('');
+	}
+}
+
 function add_log_entry(myForm) {
-//fixme: Validation stage here
+//fixme: This needs to use the preferences that allows the logging of an invalid contact
+	var invalid = (!document.getElementById('logForm').checkValidity()) ;
 	var table = document.getElementById("current_log");
 	var row = table.insertRow(1);
 	row.insertCell(-1).textContent = table.rows.length - 1;
+	if (invalid) {
+		row.className="invalid" ;
+		window.localStorage.setItem('status_' + (table.rows.length - 1), 'invalid');
+	}
 	var rowData = Array();
 	Array.from(myForm.elements).forEach(
 		(input) => {
@@ -30,7 +56,12 @@ function exportLog() {
 	// fixme: There is no error checking, this is fragile, don't use this in production.
 		var rowData = Array();
 		for (var i = 0; i < rowCount; i++) {
-			rowData.push(window.localStorage.getItem('row_' + (i + 1)).slice(1,-1));
+			if (window.localStorage.getItem('status_' + (i + 1))) {
+				status = '**Invalid**';
+			} else {
+				status = '' ;
+			}
+			rowData.push(window.localStorage.getItem('row_' + (i + 1)).slice(1,-1) + (status?','+status:''));
 		}
 		content = rowData.join("\n") + "\n";
 	} else {
@@ -67,11 +98,16 @@ function init() {
 		var table = document.getElementById("current_log");
 		for (var i = 0; i < rowCount; i++) {
 			var row = table.insertRow(1);
+			if (window.localStorage.getItem('status_' + (i + 1))) {
+				row.className="invalid" ;
+			}
 			row.insertCell(-1).textContent = (i + 1);
 			var rowData = JSON.parse(window.localStorage.getItem('row_' + (i + 1)));
 			rowData.forEach(value => row.insertCell(-1).textContent = value);
 		}
 	}
+
+	document.getElementsByName('call')[0].addEventListener('input',validate_callsignList) ;
 }
 
 init();

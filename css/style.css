@@ -1,0 +1,12 @@
+.invalid {
+	background-color:#FF996680;
+}
+
+:invalid {
+	border-color: #FF9966;
+
+	&:valid {
+		border-color: inherit;
+	}
+}
+
