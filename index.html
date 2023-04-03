@@ -7,9 +7,12 @@
 	<meta name="description" content="Extensible, cross-platform, contest logger for amateur radio.">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Contest Logger</title>
-	<link rel="stylesheet" href="/css/pico.min.css">
-	<link rel="stylesheet" href="/css/pico.docs.min.css">
-	<link rel="stylesheet" href="/css/style.css">
+	<link rel="stylesheet" type="text/css" href="/css/pico.min.css" title="Default">
+	<link rel="alternate stylesheet" type="text/css" href="/css/horizontal.css" title="Horizontal" />
+<!--
+	<link rel="stylesheet" type="text/css" href="/css/pico.docs.min.css">
+-->
+	<link rel="stylesheet" type="text/css" href="/css/style.css">
 </head>
 </html>
 <body>
@@ -28,6 +31,12 @@
 				<li data-target="about-box" onClick="toggleModal(event)">About</li>
 				<li onClick="exportLog()">Export</li>
 				<li data-target="preferences" onClick="toggleModal(event)">Preferences</li>
+				<li>
+					<select id="theme" onchange="switchTheme.call(this, event)">
+						<option>Default</option>
+						<option>Horizontal</option>
+					</select>
+				</li>
 			</ul>
 		</nav>
 	</header>
@@ -290,5 +299,6 @@
 	<script type="text/javascript" src="js/main.js"></script>
 	<script type="text/javascript" src="js/commons.min.js"></script> <!-- Source: https://github.com/picocss/pico/blob/master/docs/js/commons.min.js -->
 	<script type="text/javascript" src="js/modal.js"></script> <!-- Source: https://github.com/picocss/pico/blob/master/docs/js/modal.js -->
+	<script type="text/javascript" src="js/theme.switch.js"></script> <!-- Based on: https://www.thesitewizard.com/javascripts/change-style-sheets.shtml -->
 </body>
 </html>

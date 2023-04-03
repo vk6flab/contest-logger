@@ -15,7 +15,7 @@ When complete it will have the following functionality:
 - [x] Local storage of current log
 - [x] Log export to file
 - [x] Example of a validation error
-- [ ] Switching between two layout style sheets
+- [x] Switching between two layout style sheets
 - [ ] Installable PWA
 
 ---
@@ -109,6 +109,7 @@ The following projects and examples were explored to establish that the basic fu
   - https://github.com/longsien/BareCSS
   - https://design-system.service.gov.uk/
   - https://news.ycombinator.com/item?id=29559961
+  - https://web.dev/building-a-theme-switch-component/
 - [x] Dynamic Tables
   - https://datatables.net/examples/api/tabs_and_scrolling.html
 - [x] External File Handling
