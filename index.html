@@ -8,20 +8,21 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="theme-color" content="#ffffff"/>
 	<title>Contest Logger</title>
-	<link rel="stylesheet" type="text/css" href="/css/pico.min.css" title="Default">
-	<link rel="alternate stylesheet" type="text/css" href="/css/horizontal.css" title="Horizontal" />
+	<link rel="stylesheet" type="text/css" href="css/pico.min.css" title="Default">
+	<link rel="alternate stylesheet" type="text/css" href="css/horizontal.css" title="Horizontal" />
 <!--
-	<link rel="stylesheet" type="text/css" href="/css/pico.docs.min.css">
+	<link rel="stylesheet" type="text/css" href="css/pico.docs.min.css">
 -->
-	<link rel="stylesheet" type="text/css" href="/css/style.css">
-	<link rel='manifest' href='/manifest.json'>
-	<link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel='manifest' href='manifest.json'>
+	<link rel="icon" type="image/x-icon" href="icons/favicon.ico">
+	<link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png">
 	<script type="text/javascript">
 		if ('serviceWorker' in navigator) {
 			window.addEventListener('load', function() {
-				navigator.serviceWorker.register('/serviceWorker.js');
+				navigator.serviceWorker.register('./serviceWorker.js',{scope: './'});
 			});
 		}
 	</script>
