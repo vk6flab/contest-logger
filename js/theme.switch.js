@@ -18,7 +18,7 @@ function switch_style ( css_title ) {
 
 function set_style_from_pref() {
 	var css_title = get_pref( 'style' );
-	if (css_title.length) {
+	if (css_title !== null) {
 		switch_style( css_title );
 		const menu = document.getElementById ('theme');
 		menu.selectedIndex = [...menu.options].findIndex (option => option.text === css_title);
