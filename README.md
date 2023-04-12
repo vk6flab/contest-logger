@@ -2,11 +2,21 @@
 
 Amateur Radio contesting is an activity where hobbyists get on air, exchange information and log the exchange. A contest awards points for such an exchange using rules defined by the contest manager.
 
+There are many tools that provide various levels of contest logging. I have tried most, if not all of them. Whilst I have used several of them for serious contesting, I've always found that they didn't meet my expectations. In order to progress this area of Amateur Radio, I started putting together a list of requirements for my ideal solution.
+
+The result is this project.
+
+You are encouraged to play with this, provide feedback, suggest improvements, give constructive criticism and participate as much or as little as you like. Ultimately this is intended to be a tool that works for as many people as possible.
+
+---
+
 # Current Project Status
 
-A Minimum Viable Product (MVP), is [being developed](https://github.com/vk6flab/contest-logger/tree/pre-alpha) in a separate branch to act as a demonstration, one step above drawing on a piece of paper. You should not rely on it to accurately do anything. If you find issues, please let me know, but understand that this is NOT the actual product, it's the first pass at exploring what kinds of issues will need to be resolved when implementing an open source, cross-platform contest logging solution.
+To start a discussion about features and functionality, a Minimum Viable Product (MVP), has been developed as a product demonstration, one step above drawing on a piece of paper. You should **not rely on it to accurately do anything**. If you find issues, please let me know, but understand that this is **NOT the actual product**, it's the first pass at exploring what kinds of issues will need to be resolved when implementing an open source, cross-platform contest logging solution.
 
-When complete it will have the following functionality:
+It is available online as a Progressive Web App (PWA) and can be [used in any web browser](https://vk6flab.github.io/contest-logger/) and should be installable as an application on all operating systems for offline use. Note that several browsers do not (yet) support installing a PWA.
+
+The MVP has the following functionality:
 
 - [x] Form with basic logging fields
 - [x] Table with log entries
@@ -14,15 +24,15 @@ When complete it will have the following functionality:
 - [x] Log current time
 - [x] Local storage of current log
 - [x] Log export to file
-- [ ] Example of a validation error
-- [ ] Switching between two layout style sheets
-- [ ] Installable PWA
+- [x] Example of a validation error
+- [x] Switching between two layout style sheets
+- [x] Installable PWA
 
 ---
 
-# What is this project?
+# Project Requirements
 
-There are many tools that provide various levels of contest logging. I have tried most, if not all of them. Whilst I have used several of them for serious contesting, I've always found that they didn't meet my expectations. In order to progress this area of Amateur Radio, I started putting together a list of requirements for my ideal solution. At this time there are no tools that provide the following functionality.
+As a first pass at defining the feature set and requirements for this tool, below is a list that describes what an "ideal" amateur radio contest logging tool should provide. The list is not complete, is likely not in order and open to discussion.
 
 ## Environmental Requirements
 
@@ -99,6 +109,6 @@ These sections describe the requirements for user experience.
 
 This is an Open Source project, on purpose. The idea is that it's your project to contribute to in what ever way works for you. You can email me <cq@vk6flab.com>, or create an issue, better still, make a pull-request.
 
-Look forward to your ideas!
+I look forward to your ideas!
 
 73, de Onno VK6FLAB
