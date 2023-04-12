@@ -16,7 +16,7 @@ When complete it will have the following functionality:
 - [x] Log export to file
 - [x] Example of a validation error
 - [x] Switching between two layout style sheets
-- [ ] Installable PWA
+- [x] Installable PWA
 
 ---
 
@@ -103,6 +103,7 @@ The following projects and examples were explored to establish that the basic fu
 
 - [x] Progressive Web App
   - https://github.com/ibrahima92/pwa-with-vanilla-js
+  - https://app-manifest.firebaseapp.com/
 - [x] Minimal CSS
   - https://github.com/picocss/pico
   - https://github.com/dohliam/dropin-minimal-css
@@ -121,6 +122,8 @@ The following projects and examples were explored to establish that the basic fu
 - [x] Default Values
   - https://www.w3schools.com/tags/att_input_value.asp
   - https://www.w3schools.com/jsref/prop_text_defaultvalue.asp
+- [x] Icon Generator
+  - https://favicon.io/favicon-generator/
 
 ---
 
