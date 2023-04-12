@@ -1,0 +1,34 @@
+body {
+	background-color:#ff000010;
+}
+
+label {
+	float:left;
+	display:block;
+	margin:3px;
+}
+
+aside,.grid {
+	clear:both;
+}
+
+
+dialog {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	padding: 0 1em 1em 1em;
+	border: 0;
+	border-radius: 0.6rem;
+	box-shadow: 0 0 1em black;
+}
+
+dialog::backdrop {
+	/* make the backdrop a semi-transparent black */
+	background-color: rgba(0, 0, 0, 0.4);
+}
+
+dialog + .backdrop {
+	background-color: rgba(0, 0, 0, 0.4);
+}
