@@ -6,6 +6,11 @@
 
 digraph C {
 /*
+	This seems to display in a more pleasing layout.
+*/
+	rankdir="LR"
+
+/*
 	Contest component is a "plug-in" that affects the operation of most
 	of the aspects of the software.
 
@@ -69,38 +74,44 @@ digraph C {
 	Validation -> "Show Invalid Field" -> Form
 	Validation -> "Show Invalid Entry" -> Log
 
-	Contest [style=filled]
-	Defaults [style=filled]
-	Export [style=filled]
-	Form [style=filled]
-	Import [style=filled]
-	Log [style=filled]
-	Preferences [style=filled]
-	Storage [style=filled]
-	Theme [style=filled]
-	Validation [style=filled]
+/*
+	Modules are rendered in Green
+*/
+	Contest [style=filled,color=green]
+	Defaults [style=filled,color=green]
+	Export [style=filled,color=green]
+	Form [style=filled,color=green]
+	Import [style=filled,color=green]
+	Log [style=filled,color=green]
+	Preferences [style=filled,color=green]
+	Storage [style=filled,color=green]
+	Theme [style=filled,color=green]
+	Validation [style=filled,color=green]
 
-	"Add records to" [shape=plain,style=filled]
-	"Current Contest" [shape=plain,style=filled]
-	"Current Theme" [shape=plain,style=filled]
-	"Edit" [shape=plain,style=filled]
-	"Export Format" [shape=plain,style=filled]
-	"Extract" [shape=plain,style=filled]
-	"Field Behaviour" [shape=plain,style=filled]
-	"Form Layout" [shape=plain,style=filled]
-	"Insert" [shape=plain,style=filled]
-	"Insert Row" [shape=plain,style=filled]
-	"Invalid Colour Warning" [shape=plain,style=filled]
-	"Log Layout" [shape=plain,style=filled]
-	"Plug-In" [shape=plain,style=filled]
-	"Required Fields" [shape=plain,style=filled]
-	"Rule Check" [shape=plain,style=filled]
-	"Show Invalid Entry" [shape=plain,style=filled]
-	"Show Invalid Field" [shape=plain,style=filled]
-	"Special Fields" [shape=plain,style=filled]
-	"Store Preferences" [shape=plain,style=filled]
-	"Theme Code" [shape=plain,style=filled]
-	"Visible Columns" [shape=plain,style=filled]
-	"Visible Fields" [shape=plain,style=filled]
+/*
+	Interaction is rendered in Grey
+*/
+	"Add records to" [shape=box,style=filled]
+	"Current Contest" [shape=box,style=filled]
+	"Current Theme" [shape=box,style=filled]
+	"Edit" [shape=box,style=filled]
+	"Export Format" [shape=box,style=filled]
+	"Extract" [shape=box,style=filled]
+	"Field Behaviour" [shape=box,style=filled]
+	"Form Layout" [shape=box,style=filled]
+	"Insert" [shape=box,style=filled]
+	"Insert Row" [shape=box,style=filled]
+	"Invalid Colour Warning" [shape=box,style=filled]
+	"Log Layout" [shape=box,style=filled]
+	"Plug-In" [shape=box,style=filled]
+	"Required Fields" [shape=box,style=filled]
+	"Rule Check" [shape=box,style=filled]
+	"Show Invalid Entry" [shape=box,style=filled]
+	"Show Invalid Field" [shape=box,style=filled]
+	"Special Fields" [shape=box,style=filled]
+	"Store Preferences" [shape=box,style=filled]
+	"Theme Code" [shape=box,style=filled]
+	"Visible Columns" [shape=box,style=filled]
+	"Visible Fields" [shape=box,style=filled]
 
 }
