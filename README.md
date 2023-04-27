@@ -3,9 +3,9 @@
 Amateur Radio contesting is an activity where hobbyists get on air, exchange information and log the exchange. A contest awards points for such an exchange using rules defined by the contest manager. This project implements a contest logging solution that is Open Source, Cross Platform and Extensible.
 
 The project has several active branches:
-- [ ] Main - the general main active branch where the actual application will emerge once we have something that's an actual application.
-- [ ] Pre-Alpha - A Minimum Viable Product (MVP), has been developed in a separate branch to act as a demonstration, one step above drawing on a piece of paper. You should not rely on it to accurately do anything. If you find issues, please lodge an issue, but understand that this is NOT the actual product, it's the first pass at exploring what kinds of issues will need to be resolved when implementing an open source, cross-platform contest logging solution.
-- [x] system-design - the place where this project is being designed.
+- [ ] [Main](https://github.com/vk6flab/contest-logger/tree/main) - the general main active branch where the actual application will emerge once we have something that's an actual application.
+- [ ] [Pre-Alpha](https://github.com/vk6flab/contest-logger/tree/pre-alpha) - A Minimum Viable Product (MVP), has been developed in a separate branch to act as a demonstration, one step above drawing on a piece of paper. You should not rely on it to accurately do anything. If you find issues, please lodge an issue, but understand that this is NOT the actual product, it's the first pass at exploring what kinds of issues will need to be resolved when implementing an open source, cross-platform contest logging solution.
+- [x] [system-design](https://github.com/vk6flab/contest-logger/tree/system-design) - the place where this project is being designed.
 
 ---
 
