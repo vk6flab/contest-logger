@@ -4,7 +4,7 @@ Amateur Radio contesting is an activity where hobbyists get on air, exchange inf
 
 The project has several active branches:
 - [ ] [Main](https://github.com/vk6flab/contest-logger/tree/main) - the general main active branch where the actual application will emerge once we have something that's an actual application.
-- [ ] [Pre-Alpha](https://github.com/vk6flab/contest-logger/tree/pre-alpha) - A Minimum Viable Product (MVP), has been developed in a separate branch to act as a demonstration, one step above drawing on a piece of paper. You should not rely on it to accurately do anything. If you find issues, please lodge an issue, but understand that this is NOT the actual product, it's the first pass at exploring what kinds of issues will need to be resolved when implementing an open source, cross-platform contest logging solution.
+- [ ] [Pre-Alpha](https://github.com/vk6flab/contest-logger/tree/pre-alpha) - A Proof of Concept (PoC), has been developed in a separate branch to act as a demonstration, one step above drawing on a piece of paper. You should not rely on it to accurately do anything. If you find issues, please lodge an issue, but understand that this is NOT the actual product, it's the first pass at exploring what kinds of issues will need to be resolved when implementing an open source, cross-platform contest logging solution.
 - [x] [system-design](https://github.com/vk6flab/contest-logger/tree/system-design) - the place where this project is being designed.
 
 ---
