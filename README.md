@@ -4,18 +4,18 @@ Amateur Radio contesting is an activity where hobbyists get on air, exchange inf
 
 The project has several active branches:
 - [ ] [Main](https://github.com/vk6flab/contest-logger/tree/main) - the general main active branch where the actual application will emerge once we have something that's an actual application.
-- [x] [Pre-Alpha](https://github.com/vk6flab/contest-logger/tree/pre-alpha) - A Minimum Viable Product (MVP), has been developed in a separate branch to act as a demonstration, one step above drawing on a piece of paper. You should not rely on it to accurately do anything. If you find issues, please lodge an issue, but understand that this is NOT the actual product, it's the first pass at exploring what kinds of issues will need to be resolved when implementing an open source, cross-platform contest logging solution.
+- [x] [Pre-Alpha](https://github.com/vk6flab/contest-logger/tree/pre-alpha) - A Proof of Concept (PoC), has been developed in a separate branch to act as a demonstration, one step above drawing on a piece of paper. You should not rely on it to accurately do anything. If you find issues, please lodge an issue, but understand that this is NOT the actual product, it's the first pass at exploring what kinds of issues will need to be resolved when implementing an open source, cross-platform contest logging solution.
 - [ ] [system-design](https://github.com/vk6flab/contest-logger/tree/system-design) - the place where this project is being designed.
 
 ---
 
-# Minimum Viable Product
+# Proof Of Concept
 
-To start a discussion about features and functionality, a Minimum Viable Product (MVP), has been developed as a product demonstration, one step above drawing on a piece of paper. You should **not rely on it to accurately do anything**. If you find issues, please let me know, but understand that this is **NOT the actual product**, it's the first pass at exploring what kinds of issues will need to be resolved when implementing an open source, cross-platform contest logging solution.
+To start a discussion about features and functionality, a Proof of Concept (PoC), has been developed as a product demonstration, one step above drawing on a piece of paper. You should **not rely on it to accurately do anything**. If you find issues, please raise an issue, but understand that this is **NOT the actual product**, it's the first pass at exploring what kinds of issues will need to be resolved when implementing an open source, cross-platform contest logging solution.
 
 It is available online as a Progressive Web App (PWA) and can be [used in any web browser](https://vk6flab.github.io/contest-logger/) and should be installable as an application on all operating systems for offline use. Note that several browsers do not (yet) support installing a PWA.
 
-The MVP has the following functionality:
+The PoC has the following functionality:
 
 - [x] Form with basic logging fields
 - [x] Table with log entries
@@ -29,7 +29,7 @@ The MVP has the following functionality:
 
 ---
 
-# Proof Of Concept
+## Reference Methods
 
 The following projects and examples were explored to establish that the basic functionality can be built with a Progressive Web App.
 
